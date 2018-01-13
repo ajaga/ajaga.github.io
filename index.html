@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Vanilla Summit</title>
+    <link href="dist/css/lightbox.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 430px)" href="mobile.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 431px) and (max-width: 750px)" href="medium-break.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 751px) and (max-width: 850px)" href="medium.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 851px)" href="large.css"/>
+</head>
+    
+<body>
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close</a>
+    
+
+  <!-- Overlay content -->
+    <div class="overlay-content">
+        <div class="overlayspacer"></div>
+        <a href="#" onclick="closeNav()">top</a>
+        <a href="#events" onclick="closeNav()">Events</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#media" onclick="closeNav()">Media</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+        <a href="#" onclick="closeNav()">Store</a>
+    </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+    
+    
+    <div id="toolbar-standard">
+    	<a href="#" style="float: left;"><img src="vs-logo.png" style="height: 100px; width: auto;"></a>
+        <a href="#"><div class="store-button">STORE</div></a>
+        <a class="toolbar-link" href="#contact">contact</a>
+        <a class="toolbar-link" href="#media">media</a>
+        <a class="toolbar-link" href="#about">about</a>
+        <a class="toolbar-link" href="#events">events</a>
+        <a class="toolbar-link" href="#">home</a>
+    </div>
+    
+    
+    
+    <div id="toolbar-underlay"></div>
+    <div id="toolbar-mobile">
+        <a href="#"><div class="main-logo"><img src="vs-logo.png" style="width: 100%; height: auto;"></div></a>
+        <span onclick="openNav()"><div id="dropdown">
+            <div class="bars3">&nbsp;</div>
+            <div class="bars3">&nbsp;</div>
+            <div class="bars3">&nbsp;</div>
+        </div></span>
+    </div>
+    
+    
+    <!--<div id="under-toolbar"></div>-->
+    
+    <div class="row banner">
+        <div class="wrapper">
+            <div class="banner1">
+                <div class="banner-image"><img class="image" src="album.jpg" style="width: 100%; height: auto; "></div>
+                <div class="secondary">
+                    <p class="headline">Have you heard it yet?</p><p class="body-copy">Be sure to vibe out to our new LP <span class="copy-alt">"Vanilla Summit"</span> and come to a show.</p><br><span class="second-break"><br></span>
+                    
+                    <a href="https://vanillasummit.bandcamp.com/releases" target="_blank"><div class="cta">Check it out</div></a>
+                </div>
+            </div>
+            <!--<div id="dot-row">
+                <div class="dot1">&nbsp;</div>
+                <div class="dot2">&nbsp;</div>
+                <div class="dot3">&nbsp;</div>
+                <div class="dot4">&nbsp;</div>
+                <div class="dot5">&nbsp;</div>
+            </div>-->
+        </div>
+    </div>
+    
+    
+    <a name="events" class="events-anchor"></a>
+    
+    <div class="divider events">Events</div>
+    
+    <div class="row events">
+        <div class="wrapper">
+            
+            <div class="event">
+                <div class="bullet">
+                    <span class="month">Jul</span></br>
+                    <span class="day">28</span></br>
+                </div>
+                <div class="details">
+                    <span class="title">9pm @The Camel &mdash;</span><br>
+                    <span class="location">Richmond,&nbsp;VA</span><br><br>
+                    The Dharma Bombs, Vanilla Summit, Georgie Isaacs, and McKinley Dixon <br><br>
+                    <a href="#"><div class="tickets">Get Tickets &#9656</div></a>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="event">
+                <div class="bullet">
+                    <span class="month">Aug</span></br>
+                    <span class="day">14</span></br>
+                </div>
+                <div class="details">
+                    <span class="title">8:30pm @The Camel &mdash;</span><br>
+                    <span class="location">Richmond,&nbsp;VA</span><br><br>
+                    The Strange Heat, Andrew Rohlk Trio, McKinley Dixon w/ Vanilla Summit <br><br>
+                    <a href="#"><div class="tickets">Get Tickets &#9656</div></a>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="event">
+                <div class="bullet">
+                    <span class="month">Dec</span></br>
+                    <span class="day">03</span></br>
+                </div>
+                <div class="details">
+                    <span class="title">10:30pm @Cary St Cafe &mdash;</span><br>
+                    <span class="location">Richmond,&nbsp;VA</span><br><br>
+                    The Strange Heat, Andrew Rohlk Trio, McKinley Dixon w/ Vanilla Summit <br><br>
+                    <a href="#"><div class="tickets">Get Tickets &#9656</div></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+<a name="about"></a>
+
+    <div class="row about">
+        <div class="wrapper">
+            <span class="headline">Who is Vanilla Summit?</span>
+            <span class="body-copy">5 musicians primarily based out of <span class="copy-alt">Richmond, VA</span> experimenting with blends of Jazz, Indie and Hip-Hop. Something we like to call Indie Fusion.</span><br><br><br>
+            <span class="names"><span class="names-alt">Nathanael Clark /</span> Mostly Sax &nbsp;&nbsp;<span class="names-alt"> Alec Gary /</span> Mostly Drums &nbsp;&nbsp;<span class="names-alt">Ryan Gary /</span> Mostly Guitar &nbsp;&nbsp;<span class="names-alt"> Avery Jeffry /</span> Mostly Bass &nbsp;&nbsp;<span class="names-alt"> Austin Martin /</span> Mostly Drums</span>
+        </div>
+    </div>
+
+
+<a name="media" class="media-anchor"></a>
+
+    <div class="divider media">MEDIA</div>
+
+    <div class="row media">
+        <div class="wrapper media">
+            <iframe height="430" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/131304267&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <div class="media-container">
+                <a href="#"><div id="videos">
+                    <div class="media-text"><img class="media-icons" src="play.png">Watch our featured videos</div>
+                </div></a>
+                <a href="nate.jpg" data-lightbox="gallery" data-title="Nate"><div id="photos">
+                    <div class="media-text"><img class="media-icons" src="camera.png">See our photo gallery</div>
+                </div></a>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+    <div class="row footer">
+        <a name="contact" class="media-anchor"></a>
+        <div class="wrapper">
+            <div id="logo-social">
+                <div class="content-container">
+                    <div class="footer-header">Where you at?</div>
+                    <div class="spacer"></div>
+                    <div class="footer-header sub">Richmond, VA</div>
+                    <div class="spacer"></div>
+                    <div class="footer-header sub">@VanillaSummit</div>
+                    <div class="spacer"></div>
+                        <a class="icons" target="_blank" href="https://www.instagram.com/vanillasummit/"><img class="social" src="instagram.png"></a>
+                        <a class="icons" target="_blank" href="https://twitter.com/vanillasummit"><img class="social" src="twitter.png"></a>
+                        <a class="icons" target="_blank" href="https://www.facebook.com/vanillasummit/"><img class="social" src="fb.png"></a>
+                        <a class="icons" target="_blank" href="https://soundcloud.com/anillaummit"><img class="social" src="soundcloud.png"></a>
+                        <a class="icons" target="_blank" href="https://soundcloud.com/anillaummit"><img class="social" src="spotify.png"></a>
+                </div>
+            </div>
+            <div id="navigation">
+                <div class="content-container">
+                    <p class="footer-header">NAVIGATION</p>
+                    <div class="spacer"></div>
+                    <a class="footer-link" href="#">top</a><br>
+                    <a class="footer-link" href="#events">events</a><br>
+                    <a class="footer-link" href="#about">about</a><br>
+                    <a class="footer-link" href="#media">media</a><br>
+                    <a class="footer-link" href="#">contact</a><br>
+                    <a class="footer-link" href="#">store</a><br>
+                </div>
+            </div>
+            <div id="contact-form">
+                <div class="content-container">
+                    <p class="footer-header">Contact Us</p>
+                    <div class="spacer"></div>
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <input type="hidden" name="action" value="submit">
+                        Your email:<br>
+                        <input name="email" size="40" type="text"><br><br><br> Your message:<br>
+                        <textarea name="message">
+                        </textarea><br><br>
+                        <input value="Send email" type="submit">
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="subfooter">
+        <div class="wrapper">
+            <p>Copyright &copy; 2017 Vanilla Summit. All rights reserved.</p>
+        </div>
+    </div>
+    
+
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>

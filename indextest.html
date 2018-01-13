@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Vanilla Summit</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="mobiletest.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 851px)" href="large.css"/>
+</head>
+    
+<body>
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close</a>
+    
+
+  <!-- Overlay content -->
+    <div class="overlay-content">
+        <div class="overlayspacer"></div>
+      <a href="#">About</a>
+      <a href="#events" onclick="closeNav()">Events</a>
+      <a href="#">Media</a>
+      <a href="#">Contact</a>
+      <a href="#">Store</a>
+    </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+    
+    
+    <div id="toolbar-standard">
+    	<a href="#" style="float: left;"><img src="vs-logo.png" style="height: 100px; width: auto;"></a>
+        <a href="#"><div class="store-button">STORE</div></a>
+        <a class="toolbar-link" href="#">contact</a>
+        <a class="toolbar-link" href="#">about</a>
+        <a class="toolbar-link" href="#">media</a>
+        <a class="toolbar-link" href="#events">events</a>
+        <a class="toolbar-link" href="#">home</a>
+    </div>
+    
+    
+    
+    
+    <div id="toolbar-mobile">
+        <a href="#"><div class="main-logo"><img src="vs-logo.png" style="width: 100%; height: auto;"></div></a>
+        <span onclick="openNav()"><div id="dropdown">
+            <div class="bars3">&nbsp;</div>
+            <div class="bars3">&nbsp;</div>
+            <div class="bars3">&nbsp;</div>
+        </div></span>
+    </div>
+    
+    
+    <!--<div id="under-toolbar"></div>-->
+    
+    <div class="row banner">
+        <div class="wrapper">
+            <div class="banner1">
+                <div class="banner-image"><img src="expedition.jpg" style="width: 100%; height: auto; max-width: 500px; opacity: 1.0;"></div>
+                <div class="secondary">
+                    <p class="headline">If you still haven&apos;t heard our<span class="headline-alt">premier EP "expedition"</span></p>
+                    
+                    <a href="#"><div class="cta">Check it out now</div></a>
+                </div>
+            </div>
+            <div id="dot-row">
+                <div class="dot1">&nbsp;</div>
+                <div class="dot2">&nbsp;</div>
+                <div class="dot3">&nbsp;</div>
+                <div class="dot4">&nbsp;</div>
+                <div class="dot5">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <a name="events" class="events-anchor"></a>
+    <div class="divider events">Events</div>
+    
+    <div class="row events">
+        <div class="wrapper">
+            
+            <div class="event">
+                <div class="bullet">
+                    <span class="month">Jul</span></br>
+                    <span class="day">28</span></br>
+                </div>
+                <div class="details">
+                    <span class="title">9pm @The Camel &mdash;</span></br>
+                    <span class="location">Richmond,&nbsp;VA</span></br>
+                    The Dharma Bombs, Vanilla Summit, Georgie Isaacs, and McKinley Dixon <br><br>
+                    <a href="#"><div class="tickets">Get Tickets &#9656</div></a>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="event">
+                <div class="bullet">
+                    <span class="month">Aug</span></br>
+                    <span class="day">14</span></br>
+                </div>
+                <div class="details">
+                    <span class="title">8:30pm @The Camel &mdash;</span><br>
+                    <span class="location">Richmond,&nbsp;VA</span></br>
+                    The Strange Heat, Andrew Rohlk Trio, McKinley Dixon w/ Vanilla Summit <br><br>
+                    <a href="#"><div class="tickets">Get Tickets &#9656</div></a>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="event">
+                <div class="bullet">
+                    <span class="month">Dec</span></br>
+                    <span class="day">03</span></br>
+                </div>
+                <div class="details">
+                    <span class="title">10:30pm @Cary St Cafe &mdash;</span><br>
+                    <span class="location">Richmond,&nbsp;VA</span></br>
+                    The Strange Heat, Andrew Rohlk Trio, McKinley Dixon w/ Vanilla Summit <br><br>
+                    <a href="#"><div class="tickets">Get Tickets &#9656</div></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+        
+    <div class="row media">
+        <div class="media-row">
+            <div id="videos"></div>
+            <p class="video-text">Watch our<br>featured videos &#9656</p>
+        </div>
+    </div>
+
+    
+    
+
+    
+    <script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>
